@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styleAñadirActividad.css" />
+    <title>Añadir Actividad</title>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <form action="anadir_actividades.php" method="POST" class="form-login">
+            <ul class="login-nav">
+                <li class="login-nav__item">
+                    <a>Añadir Actividad</a>
+                </li>
+            </ul>
+            <label for="login-input-user" class="login__label">
+                Nombre
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="name" autocomplete="off" />
+            <label for="login-input-user" class="login__label">
+                Tipo
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="tipo" autocomplete="off" />
+
+            <label for="login-input-user" class="login__label">
+                Cantidad maxima de plazas
+            </label>
+            <input id="login-input-user" class="login__input" type="text" name="max" autocomplete="off" />
+
+            <input type="submit" value="Añadir" class="login__submit">
+
+            <a href="actividades_Admin.php"><input type="button" class="login__submit2" value="Volver"></a>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
